@@ -1,10 +1,10 @@
 # ParallelSudoku
 
-Parallel programming on an SMP and a multicomputer, using OpenMP and MPI, respectively for Parallel and Distributed Computing course.
-For this purpose, it was developed a serial and two parallel implementations of a sudoku solver.
+Parallel game using MPI of university Instituto Superior Técnico, Universidade de Lisboa (2017/2018).
+It was developed a serial and parallel implementations of a sudoku solver.
 
 ### Description:
-For those unaware of this game (e.g., people coming from Mars...), the puzzle consists of a partially filled
+The puzzle consists of a partially filled
 matrix n × n. The algorithm needs to fill the blank positions with values 1 through n
 such that no number is repeated on each of the n rows, n columns, or the n squares of
 √n × √n cells that split the original matrix.
